@@ -11,7 +11,7 @@ api = Api(app, docs='/', description='База данных для хранен�
 api.representations = {'application/json; charset=utf-8': output_json}
 
 movie_ns = api.namespace('movies', description='Вьюшки для фильмов')
-director_ns = api.namespace('directors', description='Вьюшки для режиссеров')
+director_ns = api.namespace('directors', description='Вьюшки для директоров')
 genre_ns = api.namespace('genres', description='Вьюшки для жанров')
 
 
